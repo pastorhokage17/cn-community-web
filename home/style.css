@@ -145,8 +145,7 @@ a > i:hover {
 }
 
 .nav-fl-left {
-    position: absolute;
-    left: 0;
+    display: none;
 }
 .menu-link {
     width: 200px;
@@ -156,7 +155,7 @@ a > i:hover {
 }
 .nav-fl-right {
     position: absolute;
-    right: 0;
+    display: none;
 }
 nav {
     padding: 1rem;
@@ -341,6 +340,9 @@ nav {
     position: relative;
     display: block;
     margin: 5px 5px;
+}
+.mobile-content {
+    display: none;
 }
 .login-container {
     width: 320px;
@@ -553,7 +555,7 @@ nav {
 }
 .main-content-2 {
     margin-top: 5px;
-    height: 286px;
+    height: 300px;
     border:1px solid rgba(128, 128, 128, 0.589);
 }
 .mc2 {
