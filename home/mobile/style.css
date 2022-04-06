@@ -155,8 +155,9 @@
         display: contents;
     }
     .login-container {
-        width: 100%;
+        width: 90%;
         height: 140px;
+        margin: 0 20px;
     }
     .login-input-wrapper {
         justify-content: center;
@@ -169,7 +170,7 @@
         padding: 10px 0 0 0;
     }
     .horizontal-ads {
-        padding-left: 50px;
+        padding-left: 35px;
     }
     
 }
