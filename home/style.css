@@ -30,6 +30,7 @@ header {
 section {
     display: block;
     font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 5px;
 }
 /* --- Navbar --- */
 .dropbtn {
@@ -598,8 +599,15 @@ nav {
     .search-bar {
         padding-right: 28.338738vh;
     }
+    .search {
+        transform: scale(0.95);
+    }
     .search-input {
         height: 20px;
+    }
+    .nav-floor {transform: scale(0.95); height: 10vh;}
+    section {
+        transform: scale(0.9753459807345983742059834);
     }
 
 }
