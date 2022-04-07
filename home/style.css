@@ -592,3 +592,14 @@ nav {
     margin-top: 5px;
     background: #26292E;
 }
+
+
+@media screen and (max-width: 1600px) {
+    .search-bar {
+        padding-right: 28.338738vh;
+    }
+    .search-input {
+        height: 20px;
+    }
+
+}
