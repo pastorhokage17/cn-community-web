@@ -1,0 +1,185 @@
+@import "../style.css";
+@import "../mobile/style.css";
+
+.first-partition {
+    display: none;
+}
+.fourth-partition {
+    display: none;
+}
+.message-wrapper {
+    margin: 10px 0px;
+    height: 60px;
+    background-image: linear-gradient(to right, #fefefe, rgba(255,255,255,0.9));
+    border: 1px solid rgba(0,0,0,0.2);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.message-block {
+    display: flex;
+    padding: 15px 10px 0px;
+}
+.message-block a{
+    margin-left: 10px;
+    height:100%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.message-block a:hover {
+    color: #E60000;
+}
+.nav-floor > ul{
+    height: inherit;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.nav-floor > ul > li > a {
+    font-size: 1rem;
+    color: rgba(0,0,0,0.9);
+}
+#table-header {
+    height:49px;
+}
+.table-content {
+    height: 36.5px;
+}
+.main-table table{
+    width: 100%;
+    font-size: 13px;
+}
+.main-table table tr th{
+    border: 1px solid rgba(0,0,0,0.3);
+    text-align: center;
+    font-weight: normal;
+}
+.main-table table tr td{
+    border: 1px solid rgba(0,0,0,0.3);
+    padding-right: 5px;
+    text-align: center;
+}
+.blog-link{
+    text-align: left;
+}
+.blog-author {
+    font-weight: bold;
+}
+.main-table table a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    color: black;
+}
+.table-content:hover{
+    background: #f0f0f0a4;
+}
+.main-table table a:hover{
+    color: red;
+}
+.message-wrapper .active a {
+    color: #E60000;
+    font-weight: bold;
+}
+
+.subop-search {
+    width: 100%;
+    height: 71.23px;
+    background-image: linear-gradient(to bottom, #fefefe, rgba(0,0,0,0.1));
+    margin: 10px 0px;
+    display: block;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 12px;
+}
+.subop-search form {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subop-search select{
+    height: 30px;
+    padding: 0px 10px;
+    color: #555555;
+}
+.subop-search input {
+    height: 30px;
+    width: 268.66px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.op2 input {
+    width: 368.66px;
+}
+.subop-search button{
+    height: 30px;
+    width: 126.33px;
+    margin: 0px 10px;
+    border: none;
+    background: #E60000;
+    color: white;
+}
+.subop-main-table {
+    margin: 10px 0px;
+}
+.subop-main-table table {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    border-top: none;
+}
+.subop-main-table th {
+    height: 49px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-top: none;
+    color: #333333;
+}
+.subop-main-table td {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.subop-main-table td a {
+    text-decoration: none;
+    color: black;
+}
+.subop-main-table td a:hover {
+    color: red;
+}
+
+.op2 .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 400px;
+}
+
+.op2 .card-item {
+    display: block;
+    font-size: 12px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 5px;
+}
+.img-container {
+    width: inherit;
+    height: 200px;
+    position: relative;
+    padding-left: 9px;
+}
+.op2 .card-item .img-container img {
+    position: absolute;
+    z-index: 1;
+}
+.op2 .card-item .img-container .text-container {
+    position: absolute;
+    z-index: 2;
+    bottom: 15px;
+    padding: 5px 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background: #E60000;
+    color: white;
+}
