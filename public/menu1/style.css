@@ -167,6 +167,7 @@
     width: inherit;
     height: 200px;
     position: relative;
+    padding-top: 5px;
     padding-left: 9px;
 }
 .op2 .card-item .img-container img {
@@ -182,4 +183,43 @@
     padding-right: 5px;
     background: #E60000;
     color: white;
+}
+.op2 .table-container{
+    margin: 15px 0 0 0;
+    padding: 0 10px;
+    width: 100%;
+}
+.op2 .table-container tr td{
+    border: 1px solid #ececec;
+}
+.op2 > td , .head {
+    background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+    text-align: center;
+    padding: 5px 25px;
+}
+.op2 > td , .body {
+    text-align: left;
+    padding-left: 15px;
+    width: 100%;
+}
+.op2 .details-container {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.op2 .details-container > span,
+.op2 .details-container > i {
+    margin: 0px 2.5px;
+}
+.op2 .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 10px;
+}
+.op2 .bottom > a {
+    text-decoration: none;
+    color: black;
+}
+.op2 .bottom > a:hover {
+    color: #DC143C;
 }
